@@ -6,11 +6,11 @@ package geektime.high.frequency.top30
  * https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/
  */
 fun main() {
-    println(singleNumber(intArrayOf(6, 3, 3, 3)))
+    println(singleNumberII(intArrayOf(6, 3, 3, 3)))
 }
 
 // 位运算
-fun singleNumber(nums: IntArray): Int {
+fun singleNumberII(nums: IntArray): Int {
     var res = 0
     if (nums.isEmpty()) return res
     for (i in 0 until 32) {
