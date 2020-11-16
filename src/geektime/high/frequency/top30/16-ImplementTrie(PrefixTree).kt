@@ -18,9 +18,15 @@ fun main() {
 
 class Trie {
 
+    // 定义类 Trie
     private var isEnd: Boolean = false
     var next = arrayOfNulls<Trie>(26)
 
+    /**
+     *  首先从根结点的子结点开始与 word 第一个字符进行匹配，一直匹配到前缀链上没有对应的字符，
+     *  这时开始不断开辟新的结点，直到插入完 word 的最后一个字符，同时还要将最后一个结点isEnd = true;
+     *  表示它是一个单词的末尾
+     */
     fun insert(word: String) {
         var node = this
         word.forEach {
@@ -34,6 +40,10 @@ class Trie {
         node.isEnd = true
     }
 
+    /**
+     * 从根结点的子结点开始，一直向下匹配即可，如果出现结点值为空就返回 false，
+     * 如果匹配到了最后一个字符，那我们只需判断 node->isEnd即可。
+     */
     fun search(word: String): Boolean {
         var node = this
         word.forEach {
@@ -44,6 +54,10 @@ class Trie {
         return node.isEnd
     }
 
+    /**
+     * 和 search 操作类似，只是不需要判断最后一个字符结点的isEnd，
+     * 因为既然能匹配到最后一个字符，那后面一定有单词是以它为前缀的。
+     */
     fun startsWith(prefix: String): Boolean {
         var node = this
         prefix.forEach {
