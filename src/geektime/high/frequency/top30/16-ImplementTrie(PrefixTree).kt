@@ -19,7 +19,7 @@ fun main() {
 class Trie {
 
     // 定义类 Trie
-    private var isEnd: Boolean = false
+    var isEnd: Boolean = false
     var next = arrayOfNulls<Trie>(26)
 
     /**
