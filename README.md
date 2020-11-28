@@ -1,1 +1,33 @@
 # iLeetcode
+
+## 极客时间 高频30题
+1. [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/submissions/)
+2. [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+3. [8. 字符串转换整数 (atoi) ](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+4. [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
+5. [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+6. [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+7. [45. 跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/)
+8. [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+9. [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+10. [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
+11. [剑指 Offer 56 - II. 数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)
+12. [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
+13. [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+14. X
+15. [166. 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
+16. [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+17. [472. 连接词](https://leetcode-cn.com/problems/concatenated-words/)
+18. [480. 滑动窗口中位数](https://leetcode-cn.com/problems/sliding-window-median/)
+19. [488. 祖玛游戏](https://leetcode-cn.com/problems/zuma-game/)
+20. [741. 摘樱桃](https://leetcode-cn.com/problems/cherry-pickup/)
+21. [728. 自除数](https://leetcode-cn.com/problems/self-dividing-numbers/)
+22. [730. 统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/)
+23. [729. 我的日程安排表 I](https://leetcode-cn.com/problems/my-calendar-i/)
+24. [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
+25. [430. 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
+26. [762. 二进制表示中质数个计算置位](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)
+27. X
+28. [874. 模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/)
+29. [884. 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)
+30. [920. 播放列表的数量](https://leetcode-cn.com/problems/number-of-music-playlists/)

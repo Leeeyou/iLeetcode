@@ -1,9 +1,9 @@
 package geektime.high.frequency.top30
 
 /**
- * 8. 字符串转换整数 (atoi)
+ * 11. 盛最多水的容器
  *
- * https://leetcode-cn.com/problems/string-to-integer-atoi/
+ * https://leetcode-cn.com/problems/container-with-most-water/
  */
 fun main() {
     println(maxArea(intArrayOf(1, 8, 6, 2, 5, 4, 8, 3, 7)))
