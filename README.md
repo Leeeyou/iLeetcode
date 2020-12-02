@@ -38,3 +38,4 @@
 1. [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/01-RemoveDuplicatesFromSortedArray.kt)
 1. [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/02-RotateArray.kt)
 1. [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/03-MergeTwoSortedLists.kt)
+1. [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/04-MergeSortedArray.kt)
