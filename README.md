@@ -31,3 +31,10 @@
 28. [874. 模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/) / [CODE](/src/geektime/high/frequency/top30/28-WalkingRobotSimulation.kt)
 29. [884. 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/) / [CODE](/src/geektime/high/frequency/top30/29-UncommonWordsFromTwoSentences.kt)
 30. [920. 播放列表的数量](https://leetcode-cn.com/problems/number-of-music-playlists/) / [CODE](/src/geektime/high/frequency/top30/30-NumberOfMusicPlaylists.kt)
+
+## 极客时间 算法进阶自练题
+
+### 数组、链表
+1. [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/01-RemoveDuplicatesFromSortedArray.kt)
+1. [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/02-RotateArray.kt)
+1. [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/03-MergeTwoSortedLists.kt)
