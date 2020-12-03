@@ -39,3 +39,4 @@
 1. [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/02-RotateArray.kt)
 1. [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/03-MergeTwoSortedLists.kt)
 1. [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/04-MergeSortedArray.kt)
+1. [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/05-SwapNodesInPairs.kt)
