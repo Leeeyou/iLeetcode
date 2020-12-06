@@ -41,3 +41,6 @@
 1. [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/04-MergeSortedArray.kt)
 1. [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/05-SwapNodesInPairs.kt)
 1. [15. 三数之和](https://leetcode-cn.com/problems/3sum/) / [CODE](/src/geektime/advanced/algorithm/self/training/array/06-3Sum.kt)
+
+### Map、Set
+1. [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) / [CODE](/src/geektime/advanced/algorithm/self/training/map/01ValidAnagram.kt)
