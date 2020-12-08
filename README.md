@@ -45,3 +45,6 @@
 ### Map、Set
 1. [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) / [CODE](/src/geektime/advanced/algorithm/self/training/map/01ValidAnagram.kt)
 1. [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) / [CODE](/src/geektime/advanced/algorithm/self/training/map/02GroupAnagrams.kt)
+
+### 堆栈、队列
+1. [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) / [CODE](/src/geektime/advanced/algorithm/self/training/stack/01RemoveAllAdjacentDuplicatesInString.kt)
