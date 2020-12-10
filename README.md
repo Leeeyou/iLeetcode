@@ -50,3 +50,4 @@
 1. [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) / [CODE](/src/geektime/advanced/algorithm/self/training/stack/01RemoveAllAdjacentDuplicatesInString.kt)
 1. [1021. 删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) / [CODE](/src/geektime/advanced/algorithm/self/training/stack/02RemoveOutermostParentheses.kt)
 1. [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) / [CODE](/src/geektime/advanced/algorithm/self/training/stack/03LargestRectangleInHistogram.kt)
+1. [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) / [CODE](/src/geektime/advanced/algorithm/self/training/stack/04TrappingRainWater.kt)
