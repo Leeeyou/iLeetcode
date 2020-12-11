@@ -54,3 +54,4 @@
 
 ### 二分查找
 1. [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) / [CODE](/src/geektime/advanced/algorithm/self/training/binary_search/01ArrangingCoins.kt)
+1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) / [CODE](/src/geektime/advanced/algorithm/self/training/binary_search/02MyPow.kt)
