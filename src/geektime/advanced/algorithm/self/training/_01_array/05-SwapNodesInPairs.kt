@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.array
+package geektime.advanced.algorithm.self.training._01_array
 
 /**
  * 24. 两两交换链表中的节点

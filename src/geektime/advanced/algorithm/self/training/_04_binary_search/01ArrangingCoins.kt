@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.binary_search
+package geektime.advanced.algorithm.self.training._04_binary_search
 
 /**
  * 441. 排列硬币

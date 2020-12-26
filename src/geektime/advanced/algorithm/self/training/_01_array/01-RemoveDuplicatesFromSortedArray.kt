@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.array
+package geektime.advanced.algorithm.self.training._01_array
 
 /**
  * 26. 删除排序数组中的重复项

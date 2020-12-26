@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.stack
+package geektime.advanced.algorithm.self.training._03_stack
 
 import java.util.*
 

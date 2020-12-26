@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.map
+package geektime.advanced.algorithm.self.training._02_map
 
 import java.util.*
 

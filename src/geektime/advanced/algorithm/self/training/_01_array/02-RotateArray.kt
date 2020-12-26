@@ -1,4 +1,4 @@
-package geektime.advanced.algorithm.self.training.array
+package geektime.advanced.algorithm.self.training._01_array
 
 /**
  * 189. 旋转数组
