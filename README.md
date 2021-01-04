@@ -53,6 +53,10 @@
 1. [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) / [CODE](/geektime/advanced/algorithm/self/training/_03_stack/04TrappingRainWater.kt)
 
 ### 二分查找
-1. [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) / [CODE](/geektime/advanced/algorithm/self/training/04binarysearch/01ArrangingCoins.kt)
-1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) / [CODE](/geektime/advanced/algorithm/self/training/04binarysearch/02MyPow.kt)
-1. [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) / [CODE](/geektime/advanced/algorithm/self/training/04binarysearch/03DungeonGame.kt)
+1. [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/01ArrangingCoins.kt)
+1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/02MyPow.kt)
+1. [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/03DungeonGame.kt)
+
+### 递归
+1. [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) / [CODE](/geektime/advanced/algorithm/self/training/_05_recursion/01MaximumDepthOfBinaryTree.kt)
+1. [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) / [CODE](/geektime/advanced/algorithm/self/training/_05_recursion/02SymmetricTree.kt)
