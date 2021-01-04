@@ -35,28 +35,28 @@
 ## 极客时间 算法进阶自练题
 
 ### 数组、链表
-1. [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/01-RemoveDuplicatesFromSortedArray.kt)
-1. [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/02-RotateArray.kt)
-1. [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/03-MergeTwoSortedLists.kt)
-1. [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/04-MergeSortedArray.kt)
-1. [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/05-SwapNodesInPairs.kt)
-1. [15. 三数之和](https://leetcode-cn.com/problems/3sum/) / [CODE](/geektime/advanced/algorithm/self/training/_01_array/06-3Sum.kt)
+1. [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) / [CODE](src/geektime/advanced/algorithm/self/training/_01_array/01-RemoveDuplicatesFromSortedArray.kt)
+1. [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/) / [CODE](/src/geektime/advanced/algorithm/self/training/_01_array/02-RotateArray.kt)
+1. [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) / [CODE](src/geektime/advanced/algorithm/self/training/_01_array/03-MergeTwoSortedLists.kt)
+1. [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) / [CODE](src/geektime/advanced/algorithm/self/training/_01_array/04-MergeSortedArray.kt)
+1. [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) / [CODE](src/geektime/advanced/algorithm/self/training/_01_array/05-SwapNodesInPairs.kt)
+1. [15. 三数之和](https://leetcode-cn.com/problems/3sum/) / [CODE](src/geektime/advanced/algorithm/self/training/_01_array/06-3Sum.kt)
 
 ### Map、Set
-1. [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) / [CODE](/geektime/advanced/algorithm/self/training/_02_map/01ValidAnagram.kt)
-1. [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) / [CODE](/geektime/advanced/algorithm/self/training/_02_map/02GroupAnagrams.kt)
+1. [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) / [CODE](src/geektime/advanced/algorithm/self/training/_02_map/01ValidAnagram.kt)
+1. [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) / [CODE](src/geektime/advanced/algorithm/self/training/_02_map/02GroupAnagrams.kt)
 
 ### 堆栈、队列
-1. [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) / [CODE](/geektime/advanced/algorithm/self/training/_03_stack/01RemoveAllAdjacentDuplicatesInString.kt)
-1. [1021. 删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) / [CODE](/geektime/advanced/algorithm/self/training/_03_stack/02RemoveOutermostParentheses.kt)
-1. [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) / [CODE](/geektime/advanced/algorithm/self/training/_03_stack/03LargestRectangleInHistogram.kt)
-1. [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) / [CODE](/geektime/advanced/algorithm/self/training/_03_stack/04TrappingRainWater.kt)
+1. [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) / [CODE](src/geektime/advanced/algorithm/self/training/_03_stack/01RemoveAllAdjacentDuplicatesInString.kt)
+1. [1021. 删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) / [CODE](src/geektime/advanced/algorithm/self/training/_03_stack/02RemoveOutermostParentheses.kt)
+1. [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) / [CODE](src/geektime/advanced/algorithm/self/training/_03_stack/03LargestRectangleInHistogram.kt)
+1. [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) / [CODE](src/geektime/advanced/algorithm/self/training/_03_stack/04TrappingRainWater.kt)
 
 ### 二分查找
-1. [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/01ArrangingCoins.kt)
-1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/02MyPow.kt)
-1. [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) / [CODE](/geektime/advanced/algorithm/self/training/_04_binary_search/03DungeonGame.kt)
+1. [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) / [CODE](src/geektime/advanced/algorithm/self/training/_04_binary_search/01ArrangingCoins.kt)
+1. [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) / [CODE](src/geektime/advanced/algorithm/self/training/_04_binary_search/02MyPow.kt)
+1. [174. 地下城游戏](https://leetcode-cn.com/problems/dungeon-game/) / [CODE](src/geektime/advanced/algorithm/self/training/_04_binary_search/03DungeonGame.kt)
 
 ### 递归
-1. [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) / [CODE](/geektime/advanced/algorithm/self/training/_05_recursion/01MaximumDepthOfBinaryTree.kt)
-1. [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) / [CODE](/geektime/advanced/algorithm/self/training/_05_recursion/02SymmetricTree.kt)
+1. [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/01MaximumDepthOfBinaryTree.kt)
+1. [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/02SymmetricTree.kt)
