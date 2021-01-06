@@ -29,8 +29,8 @@ fun minDiffInBST(root: TreeNode?): Int {
 /**
  * 在二叉搜索树中，中序遍历会将树中节点按数值大小顺序输出。只需要遍历计算相邻数的差值，取其中最小的就可以了。
  *
- * 时间复杂度：O(N)O(N)，其中 NN 为树中节点的个数。
- * 空间复杂度：O(H)O(H)，其中 HH 为树的高度，其为递归调用 dfs 产生函数栈的大小。
+ * 时间复杂度：O(N)，其中 NN 为树中节点的个数。
+ * 空间复杂度：O(H)，其中 HH 为树的高度，其为递归调用 dfs 产生函数栈的大小。
  */
 fun dfs(node: TreeNode?) {
     if (node == null) return
