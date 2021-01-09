@@ -62,3 +62,4 @@
 1. [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/02SymmetricTree.kt)
 1. [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/03MinimumDepthOfBinaryTree.kt)
 1. [783. 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/04MinimumDistanceBetweenBSTNodes.kt)
+1. [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/05BinaryTreePaths.kt)
