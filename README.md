@@ -64,3 +64,4 @@
 1. [783. 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/04MinimumDistanceBetweenBSTNodes.kt)
 1. [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/05BinaryTreePaths.kt)
 1. [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/06RangeSumOfBST.kt)
+1. [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) / [CODE](src/geektime/advanced/algorithm/self/training/_05_recursion/07LowestCommonAncestorOfBinaryTree.kt)
