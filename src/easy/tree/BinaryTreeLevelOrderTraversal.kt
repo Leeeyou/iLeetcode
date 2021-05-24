@@ -12,6 +12,9 @@ fun main() {
     levelOrder(null)
 }
 
+/**
+ * 广度优先遍历
+ */
 fun levelOrder(root: TreeNode?): List<List<Int>> {
     val result = mutableListOf<MutableList<Int>>()
     val queue = LinkedList<TreeNode>()
