@@ -63,7 +63,7 @@ fun dfs(s: String, begin: Int) {
         // 递归
         dfs(s, begin + len)
 
-        // 剪掉不合适的分支
+        // 剪掉不合适的分支，或者已经是目标的分支
         temp.removeAt(temp.size - 1)
     }
 }

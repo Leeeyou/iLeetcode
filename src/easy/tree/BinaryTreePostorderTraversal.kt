@@ -29,6 +29,7 @@ fun postorderTraversal(root: TreeNode?): List<Int> {
     return result
 }
 
+// 迭代法
 fun postorderTraversal2(root: TreeNode?): List<Int> {
     if (root == null) return result
     val stack = Stack<TreeNode>()
@@ -36,6 +37,7 @@ fun postorderTraversal2(root: TreeNode?): List<Int> {
     stack.push(curNode)
     while (stack.isNotEmpty()) {
         val node = stack.peek()
+        // node.right != curNode 这里是防止curNode为right node时重复入栈同级的left node
         if (node.left != null && node.left != curNode && node.right != curNode) {
             stack.push(node.left)
         } else if (node.right != null && node.right != curNode) {

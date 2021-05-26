@@ -39,7 +39,8 @@ class LRUCache(private val capacity: Int) {
         }
     }
 
-    //// 以下是自定义双向链表
+    ///// 以下是自定义简单的双向链表，对外提供removeNode,addToHead,moveToHead,removeTail四个主要函数
+    ///// 再完善put和get方法
 
     class DLinkedNode(var key: Int? = null, var value: Int? = null) {
         var prev: DLinkedNode? = null

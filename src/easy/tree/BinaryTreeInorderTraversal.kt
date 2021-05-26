@@ -21,6 +21,7 @@ fun main() {
     println("result is ${inorderTraversal2(root)}")
 }
 
+// 递归法
 val result = mutableListOf<Int>()
 fun inorderTraversal(root: TreeNode?): List<Int> {
     if (root == null) return result
@@ -30,6 +31,7 @@ fun inorderTraversal(root: TreeNode?): List<Int> {
     return result
 }
 
+// 迭代法
 fun inorderTraversal2(root: TreeNode?): List<Int> {
     if (root == null) return result
     val stack = Stack<TreeNode>()

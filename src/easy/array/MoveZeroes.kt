@@ -25,6 +25,7 @@ fun main() {
 fun moveZeroes(nums: IntArray): Unit {
     var slow = 0
 
+    // slow找到数组中第一个0的下标
     while (slow < nums.size) {
         if (nums[slow] == 0) {
             break
@@ -32,6 +33,7 @@ fun moveZeroes(nums: IntArray): Unit {
         slow++
     }
 
+    // fast初始化位置为slow+1，然后遍历数组剩余内容，碰到非0则与slow交换
     for (fast in slow + 1 until nums.size) {
         if (nums[fast] != 0) {
             nums[slow] = nums[fast]
