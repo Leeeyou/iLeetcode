@@ -9,12 +9,14 @@ import java.util.*
  * https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/
  */
 
-fun maxDepth(root: TreeNode?): Int {
+// dfs
+fun maxDepth2(root: TreeNode?): Int {
     if (root == null) return 0
     return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
 }
 
-fun maxDepth2(root: TreeNode?): Int {
+// bfs
+fun maxDepth(root: TreeNode?): Int {
     if (root == null) return 0
     val queue = LinkedList<TreeNode>()
     queue.offer(root)
