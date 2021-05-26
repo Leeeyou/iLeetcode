@@ -8,6 +8,7 @@ import java.util.*
  *
  * https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
  */
+
 fun main() {
     val root = TreeNode(4)
     root.left = TreeNode(2)
