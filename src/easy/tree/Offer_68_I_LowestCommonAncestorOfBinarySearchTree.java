@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/
  */
-public class Offer_68_LowestCommonAncestorOfBinarySearchTree {
+public class Offer_68_I_LowestCommonAncestorOfBinarySearchTree {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(6);
@@ -27,7 +27,7 @@ public class Offer_68_LowestCommonAncestorOfBinarySearchTree {
         root.getLeft().getRight().setLeft(new TreeNode(3));
         root.getLeft().getRight().setRight(new TreeNode(5));
 
-        Offer_68_LowestCommonAncestorOfBinarySearchTree obj = new Offer_68_LowestCommonAncestorOfBinarySearchTree();
+        Offer_68_I_LowestCommonAncestorOfBinarySearchTree obj = new Offer_68_I_LowestCommonAncestorOfBinarySearchTree();
         TreeNode treeNode1 = obj.lowestCommonAncestor(root, new TreeNode(4), new TreeNode(7));
         TreeNode treeNode2 = obj.lowestCommonAncestor(root, new TreeNode(3), new TreeNode(5));
         System.out.println(treeNode1.getVal());
