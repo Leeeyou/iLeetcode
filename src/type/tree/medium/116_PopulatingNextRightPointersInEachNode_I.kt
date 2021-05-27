@@ -1,4 +1,4 @@
-package difficulty.easy.tree
+package type.tree.medium
 
 import type.tree.easy.bean.Node
 import java.util.*
