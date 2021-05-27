@@ -8,10 +8,13 @@ package type.search.easy
 
 fun main() {
     val array = intArrayOf(1, 2, 3, 4, 4, 4, 4, 5, 5, 5, 6, 7)
-    System.out.println(search(array, 4))
-    System.out.println(search(intArrayOf(), 4))
-    System.out.println(search(intArrayOf(3), 4))
-    System.out.println(search(intArrayOf(3), 3))
+    System.out.println(searchLease(array, 4))
+    System.out.println(searchMost(array, 4))
+
+//    System.out.println(search(array, 4))
+//    System.out.println(search(intArrayOf(), 4))
+//    System.out.println(search(intArrayOf(3), 4))
+//    System.out.println(search(intArrayOf(3), 3))
 }
 
 fun search(nums: IntArray, target: Int): Int {
