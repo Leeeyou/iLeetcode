@@ -21,6 +21,7 @@ fun main() {
 fun getKthFromEnd(head: ListNode?, k: Int): ListNode? {
     var slow = head
     var fast = head
+
     var temp = 1
     while (fast?.next != null && k > 1 && temp < k) {
         fast = fast.next
