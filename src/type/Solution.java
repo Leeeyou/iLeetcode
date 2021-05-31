@@ -41,8 +41,8 @@ class Solution {
         System.out.println("pivot = " + pivot + ", index = " + lo);
         int i = lo, j = hi + 1;
         while (true) {
-            while (++i <= hi && nums[i] < pivot) ; // 找到第一个nums[i]>=v的数，i往右靠
-            while (--j >= lo && nums[j] > pivot) ; // 找到第一个nums[j]<=v的数，j往左靠
+            while (++i <= hi && nums[i] < pivot) ; // 找到第一个 >=pivot 的数，i往右靠
+            while (--j >= lo && nums[j] > pivot) ; // 找到第一个 <=pivot 的数，j往左靠
             if (i >= j) {
                 break;
             }
