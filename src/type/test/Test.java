@@ -1,4 +1,4 @@
-package type;
+package type.test;
 
 import geektime.advanced._01_array.ListNode;
 
