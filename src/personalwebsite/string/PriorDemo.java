@@ -1,4 +1,4 @@
-package personalwebsite.待整理.string.ex02;
+package personalwebsite.string;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -12,22 +12,14 @@ import java.util.Comparator;
  * ["abc","de"],2
  * "abcde"
  */
-public class Prior {
-    public static void main(String[] args){
-        String[] s = {"ac","aa","ee","ad","aa"};
-        System.out.println(findSmallest(s,5));
-    }
-
-    public static class MyComparator implements Comparator<String> {
-        @Override
-        public int compare(String s1, String s2) {
-            return (s1 + s2).compareTo(s2 + s1);
-        }
+public class PriorDemo {
+    public static void main(String[] args) {
+        String[] s = {"ac", "aa", "ee", "ad", "aa"};
+        System.out.println(findSmallest(s, 5));
     }
 
     public static String findSmallest(String[] strs, int n) {
-        if (strs == null || strs.length <= 0)
-            return null;
+        if (strs == null || strs.length <= 0) return null;
 
         Arrays.sort(strs, new MyComparator());
         StringBuilder sb = new StringBuilder();
@@ -36,5 +28,12 @@ public class Prior {
         }
 
         return sb.toString();
+    }
+
+    public static class MyComparator implements Comparator<String> {
+        @Override
+        public int compare(String s1, String s2) {
+            return (s1 + s2).compareTo(s2 + s1);
+        }
     }
 }

@@ -1,4 +1,4 @@
-package personalwebsite.待整理.string.ex02;
+package personalwebsite.string;
 
 /**
  * Created by LeeeYou on 2016/3/13. 字符串移位练习题
@@ -9,26 +9,21 @@ package personalwebsite.待整理.string.ex02;
  * "ABCDE",5,3
  * 返回："DEABC"
  */
-public class Translation {
+public class TranslationDemo {
 
     public static void main(String[] args) {
         System.out.println(String.valueOf(stringTranslation("sostupid", 8, 2)));
         System.out.println(String.valueOf(stringTranslation("WQ", 2, 1)));
     }
 
-    public static String stringTranslation(String A, int n, int len) {
-        if (n == 1)
-            return A;
+    public static String stringTranslation(String s, int n, int len) {
+        if (n == 1) return s;
+        if (len <= 0 || len > n - 1) return s;
 
-        if (len <= 0 || len > n - 1)
-            return A;
-
-        char[] chars = A.toCharArray();
-
+        char[] chars = s.toCharArray();
         reverse(chars, 0, len - 1);
         reverse(chars, len, n - 1);
         reverse(chars, 0, n - 1);
-
         return String.valueOf(chars);
     }
 
@@ -42,5 +37,4 @@ public class Translation {
             end--;
         }
     }
-
 }
