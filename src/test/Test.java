@@ -2,7 +2,8 @@ package test;
 
 import geektime.advanced._01_array.ListNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Base64;
 
 public class Test {
 
@@ -19,20 +20,21 @@ public class Test {
 //        ArrayList list = new ArrayList<Integer>();
 //        list.get(0)
 
-        Test test = new Test();
-        int[] array = new int[]{1, 2, 3, 2, 2, 2, 5, 4, 2};
-        System.out.println(test.majorityElement(array));
+//        Test test = new Test();
+//        int[] array = new int[]{1, 2, 3, 2, 2, 2, 5, 4, 2};
+//        System.out.println(test.majorityElement(array));
+//
+//        PriorityQueue<Integer> q = new PriorityQueue<>((o1, o2) -> o2 - o1);
+//        q.poll();
+//        int[] ints1 = new int[10];
+//        TreeMap<Integer,Integer> map = new TreeMap<Integer,Integer>();
+//        map.size();
+//        Map.Entry<Integer, Integer> integerIntegerEntry = map.lastEntry();
+//        integerIntegerEntry.getKey();
+////        integerIntegerEntry.setValue()
+////        map.remove(integerIntegerEntry);
+//        map.pollLastEntry();
 
-        PriorityQueue<Integer> q = new PriorityQueue<>((o1, o2) -> o2 - o1);
-        q.poll();
-        int[] ints1 = new int[10];
-        TreeMap<Integer,Integer> map = new TreeMap<Integer,Integer>();
-        map.size();
-        Map.Entry<Integer, Integer> integerIntegerEntry = map.lastEntry();
-        integerIntegerEntry.getKey();
-//        integerIntegerEntry.setValue()
-//        map.remove(integerIntegerEntry);
-        map.pollLastEntry();
     }
 
     public int majorityElement(int[] nums) {
