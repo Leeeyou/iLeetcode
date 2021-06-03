@@ -1,5 +1,6 @@
-package personalwebsite.待整理.stack_queue.ex02;
+package personalwebsite.stackqueue;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -11,44 +12,44 @@ import java.util.Stack;
  * [4,3,2,1],4
  * 返回：[1,2,3,4]
  */
-public class StackReverse {
+public class StackReverseDemo {
 
-    public int[] reverseStack(int[] A, int n) {
+    public static void main(String[] args) {
+        StackReverseDemo demo = new StackReverseDemo();
 
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < n; i++) {
-            stack.push(A[i]);
-        }
-
-        reverse(stack);
-
-        for (int i = 0; i < n; i++) {
-            A[i] = stack.pop();
-        }
-
-        return A;
+        int[] nums = {3, 2, 1};
+        demo.reverseStack(nums, nums.length);
+        System.out.println(Arrays.toString(nums));
     }
 
-    //把栈中元素逆序
-    public void reverse(Stack<Integer> stack) {
-        if (stack.isEmpty()) {
-            return;
+    public void reverseStack(int[] nums, int n) {
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            stack.push(nums[i]);
         }
+        reverse(stack);
+        for (int i = 0; i < n; i++) {
+            nums[i] = stack.pop();
+        }
+    }
 
+    // 把栈中元素逆序
+    public void reverse(Stack<Integer> stack) {
+        if (stack.isEmpty()) return;
         int i = get(stack);
         reverse(stack);
         stack.push(i);
     }
 
-    //移除栈底元素并返回
+    // 移除栈底元素并返回
     public int get(Stack<Integer> stack) {
-        Integer result = stack.pop();
+        int t = stack.pop(); // 拿出栈顶元素
         if (stack.isEmpty()) {
-            return result;
+            return t;
         } else {
             int last = get(stack);
             stack.push(last);
-            return result;
+            return t;
         }
     }
 

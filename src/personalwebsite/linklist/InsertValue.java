@@ -1,6 +1,4 @@
-package personalwebsite.待整理.linkedlist.ex01;
-
-import java.util.*;
+package personalwebsite.linklist;
 
 /**
  * 环形链表插值练习题

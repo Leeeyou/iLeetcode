@@ -1,4 +1,4 @@
-package personalwebsite.待整理.bit_computing;
+package personalwebsite.bit;
 
 /**
  * Created by LeeeYou on 2016/3/26. 寻找奇数出现练习题

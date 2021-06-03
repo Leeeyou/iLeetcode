@@ -1,4 +1,4 @@
-package personalwebsite.待整理.other;
+package personalwebsite.bit;
 
 /**
  * Created by leeyou on 2016/3/22. 计算一个int里面二进制有几个1?

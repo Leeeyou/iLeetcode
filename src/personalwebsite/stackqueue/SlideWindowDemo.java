@@ -1,4 +1,4 @@
-package personalwebsite.待整理.stack_queue.ex03;
+package personalwebsite.stackqueue;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -12,7 +12,7 @@ import java.util.LinkedList;
  * [4,3,5,4,3,3,6,7],8,3
  * 返回：[5,5,5,4,6,7]
  */
-public class SlideWindow {
+public class SlideWindowDemo {
 
     public static void main(String[] args) {
         int[] A = {357, 564, 212, 500, 96};
@@ -27,8 +27,8 @@ public class SlideWindow {
         if (n <= 0 || w == 1)
             return arr;
 
-        /**
-         *假设当前数为arr[i],放入规则如下：
+        /*
+         * 假设当前数为arr[i],放入规则如下：
          * 1、如果qmax为空，则直接把下标i放入到qmax中
          * 2、如果qmax不为空，取出当前qmax队尾存放的下表j。如果arr[j]>arr[i],直接把下标i放到qmax队尾
          * 3、如果arr[j]<=arr[i],则一直从qmax弹出下标，知道某个下标在qmax中对应的值大于arr[i]为止，，把i放入qmax队尾
@@ -51,7 +51,6 @@ public class SlideWindow {
                 result[resultIndex++] = arr[qmax.peekFirst()];
             }
         }
-
         return result;
     }
 

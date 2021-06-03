@@ -1,4 +1,4 @@
-package personalwebsite.待整理.stack_queue.ex03;
+package personalwebsite.stackqueue;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -30,14 +30,14 @@ import java.util.Stack;
  * <p>
  * 总之，A在单独一侧不可能有超过一个孩子节点的情况
  */
-public class MaxTree {
+public class MaxTreeDemo {
 
     public static void main(String[] args) {
-        int[] A = {3, 4, 5, 1, 2};
-        buildMaxTree(A, 5);
+        int[] nums = {3, 4, 5, 1, 2};
+        buildMaxTree(nums, 5);
     }
 
-    public static int[] buildMaxTree(int[] A, int n) {
+    public static void buildMaxTree(int[] nums, int n) {
         Stack<Integer> stack = new Stack<>();
 
         int[] ALeft = new int[n];//左边第一个大的数
@@ -46,18 +46,18 @@ public class MaxTree {
         //寻找左边第一个大的数，将值存放到ALeft
         for (int i = 0; i < n; i++) {
             if (stack.isEmpty()) {
-                stack.push(A[i]);
+                stack.push(nums[i]);
                 ALeft[i] = -1;
             } else {
-                while (!stack.isEmpty() && A[i] > stack.peek()) {
+                while (!stack.isEmpty() && nums[i] > stack.peek()) {
                     stack.pop();
                 }
 
                 if (!stack.isEmpty()) {
                     ALeft[i] = stack.peek();
-                    stack.push(A[i]);
+                    stack.push(nums[i]);
                 } else {
-                    stack.push(A[i]);
+                    stack.push(nums[i]);
                     ALeft[i] = -1;
                 }
             }
@@ -68,18 +68,18 @@ public class MaxTree {
         //寻找右边第一个大的数，将值存放到ARight
         for (int i = n - 1; i >= 0; i--) {
             if (stack.isEmpty()) {
-                stack.push(A[i]);
+                stack.push(nums[i]);
                 ARight[i] = -1;
             } else {
-                while (!stack.isEmpty() && A[i] > stack.peek()) {
+                while (!stack.isEmpty() && nums[i] > stack.peek()) {
                     stack.pop();
                 }
 
                 if (!stack.isEmpty()) {
                     ARight[i] = stack.peek();
-                    stack.push(A[i]);
+                    stack.push(nums[i]);
                 } else {
-                    stack.push(A[i]);
+                    stack.push(nums[i]);
                     ARight[i] = -1;
                 }
             }
@@ -100,15 +100,14 @@ public class MaxTree {
             } else if (ARight[i] == -1) {
                 temp = ALeft[i];
             } else {
-                temp = ALeft[i] < ARight[i] ? ALeft[i] : ARight[i];
+                temp = Math.min(ALeft[i], ARight[i]);
             }
 
-            result[i] = getIndex(A, temp);
+            result[i] = getIndex(nums, temp);
         }
 
         System.out.println(Arrays.toString(result));
 
-        return result;
     }
 
     //根据元素值，获取它在数组A中的下标位置
